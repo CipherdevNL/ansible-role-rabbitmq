@@ -32,6 +32,10 @@ The RabbitMQ version to install.
 
 (Debian/Ubuntu only) Controls the .deb to install.
 
+    rabbitmq_package: "rabbitmq-server"
+
+(Alpine only) Controls the package to install.
+
 ## Dependencies
 
 None.

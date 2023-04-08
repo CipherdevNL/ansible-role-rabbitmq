@@ -21,6 +21,9 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+    - name: Alpine
+      versions:
+        - 3.17
   galaxy_tags:
     - system
     - rabbitmq
