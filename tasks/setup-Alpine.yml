@@ -3,4 +3,6 @@
   community.general.apk:
     name: "{{ rabbitmq_package }}"
     state: present
-    repository: https://dl-cdn.alpinelinux.org/alpine/edge/testing
+    repository: 
+      - https://dl-cdn.alpinelinux.org/alpine/edge/testing
+      - https://dl-cdn.alpinelinux.org/alpine/edge/community
