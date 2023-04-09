@@ -2,4 +2,4 @@
 - name: Ensure RabbitMQ is installed.
   community.general.apk:
     name: "{{ rabbitmq_package }}"
-    status: present
+    state: present
